@@ -70,29 +70,27 @@ sin embargo, se considerará como “plus” o extra si se desea implementar la 
 **Esta opcion fue implementada en cada venta que se realiza**
 
 ##### 4. Obtener todos los productos cuya cantidad_disponible sea menor a 5
-a. Métodos HTTP: GET
+a. Métodos HTTP: GET\
 b. Endpoint:
 localhost:8080/productos/falta_stock
 
 ##### 5. Obtener la lista de productos de una determinada venta
-a. Métodos HTTP: GET
+a. Métodos HTTP: GET\
 b. Endpoint:
 localhost:8080/ventas/productos/{codigo_venta}
 
-##### 6. Obtener la sumatoria del monto y también cantidad total de ventas de un determinado
-día
-a. Métodos HTTP: GET
+##### 6. Obtener la sumatoria del monto y también cantidad total de ventas de un determinado día
+a. Métodos HTTP: GET\
 b. Endpoint:
 localhost:8080/ventas/{fecha_venta}
 
-##### 7. Obtener el codigo_venta, el total, la cantidad de productos, el nombre del cliente y el
-apellido del cliente de la venta con el monto más alto de todas.
-a. Métodos HTTP: GET
+##### 7. Obtener el codigo_venta, el total, la cantidad de productos, el nombre del cliente y el apellido del cliente de la venta con el monto más alto de todas.
+a. Métodos HTTP: GET\
 b. Endpoint:
 localhost:8080/ventas/mayor_venta
 Tener en cuenta patrón DTO para este escenario
 
 ##### [Implementacion propia] Obtener detalle de una venta simulando la informacion que el cliente quiere ver.
-a. Métodos HTTP: GET
+a. Métodos HTTP: GET\
 b. Endpoint:
 localhost:8080/ventas/factura/{id_venta}
