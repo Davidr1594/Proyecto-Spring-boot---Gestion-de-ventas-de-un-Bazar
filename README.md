@@ -57,8 +57,8 @@ Eliminación: localhost:8080/productos/eliminar/{codigo_producto}\
 
 
 Edición: localhost:8080/productos/editar/{codigo_producto}
-![Captura de pantalla 2024-06-11 131600](https://github.com/Davidr1594/Consultorio_Odontologico/assets/169404551/99016942-130e-46de-9ab2-4354e7d14b8d)
-editado:
+![Captura de pantalla 2024-06-11 131600](https://github.com/Davidr1594/Consultorio_Odontologico/assets/169404551/99016942-130e-46de-9ab2-4354e7d14b8d)\
+Despues de ser editado:\
 ![Captura de pantalla 2024-06-11 131639](https://github.com/Davidr1594/Consultorio_Odontologico/assets/169404551/26c9d74e-4234-4a04-9149-e8dfcce05c94)
 
 
@@ -91,17 +91,17 @@ sin embargo, se considerará como “plus” o extra si se desea implementar la 
 Productos antes de una venta donde id producto #102 tiene 5 cantidades disponible y id producto #54 tiene 20 disponibles:
 ![Captura de pantalla 2024-06-11 132416](https://github.com/Davidr1594/Consultorio_Odontologico/assets/169404551/a1f4694e-416c-428f-89f5-e48523de9f0d)
 
-Se realiza una venta con los 2 productos:
+Se realiza una venta con los 2 productos:\
 ![Captura de pantalla 2024-06-11 132839](https://github.com/Davidr1594/Consultorio_Odontologico/assets/169404551/3b9e24fd-e68b-44f6-8edb-9b73c40a474d)
 
-Al volver traer lista productos podemos oberservar que se rebajo la cantidad disponible, asi mismo el codigo primero verifica si hay cantidades disponibles antes de realizar la venta.
+Al volver traer lista productos podemos oberservar que se rebajo la cantidad disponible, asi mismo el codigo primero verifica si hay cantidades disponibles antes de realizar la venta.\
 ![Captura de pantalla 2024-06-11 133024](https://github.com/Davidr1594/Consultorio_Odontologico/assets/169404551/04c0c1bd-d101-4504-9c7e-3f2e89a596e9)
 
 
 ##### 4. Obtener todos los productos cuya cantidad_disponible sea menor a 5
 a. Métodos HTTP: GET\
 b. Endpoint:\
-localhost:8080/productos/falta_stock
+localhost:8080/productos/falta_stock\
 ![Captura de pantalla 2024-06-11 133120](https://github.com/Davidr1594/Consultorio_Odontologico/assets/169404551/8aeac588-45fa-41b7-9728-175ebb023445)
 
 
@@ -114,7 +114,7 @@ localhost:8080/ventas/productos/{codigo_venta}
 ##### 6. Obtener la sumatoria del monto y también cantidad total de ventas de un determinado día
 a. Métodos HTTP: GET\
 b. Endpoint:\
-localhost:8080/ventas/{fecha_venta}
+localhost:8080/ventas/{fecha_venta}\
 ![Captura de pantalla 2024-06-11 133345](https://github.com/Davidr1594/Consultorio_Odontologico/assets/169404551/0c93908b-e4e2-44a1-a3db-7c1c74169483)
 
 ##### 7. Obtener el codigo_venta, el total, la cantidad de productos, el nombre del cliente y el apellido del cliente de la venta con el monto más alto de todas.
@@ -128,5 +128,5 @@ Tener en cuenta patrón DTO para este escenario
 ##### [Implementacion propia] Obtener detalle de una venta simulando la informacion que el cliente quiere ver tipo factura.
 a. Métodos HTTP: GET\
 b. Endpoint:\
-localhost:8080/ventas/factura/{id_venta}
+localhost:8080/ventas/factura/{id_venta}\
 ![Captura de pantalla 2024-06-11 133548](https://github.com/Davidr1594/Consultorio_Odontologico/assets/169404551/3bfe0e1a-5c01-43cd-b93d-abfd1a4b78d1)
