@@ -36,7 +36,7 @@ necesarias las siguientes clases:\
 A partir del relevamiento realizado respecto al modelado, la dueña del bazar especificó que
 tiene los siguientes requerimientos:
 
-#### *Se incluiran imagenes solo para Producto por motivos demostrativos y no en las demas entidades para no saturar de imagenes, se incluiran mas imagenes en endpoints que tengan una funcion distinta a CRUD.
+#### *Se incluiran imagenes solo para Producto por motivos demostrativos con Postman y no en las demas entidades para no saturar de imagenes, se incluiran mas imagenes en endpoints que tengan una funcion diferente a un CRUD simple.
 
 #### 1. Poder realizar un CRUD completo de productos
 a. Métodos HTTP: GET, POST, DELETE, PUT\
