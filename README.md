@@ -88,7 +88,7 @@ sin embargo, se considerará como “plus” o extra si se desea implementar la 
 
 **Esta opcion fue implementada en cada venta que se realiza, demostración:**
 
-Productos antes de una venta donde id producto #102 tiene 5 cantidades disponible y id producto #54 tiene 20 disponibles:
+Productos antes de una venta donde id producto #102 tiene 5 cantidades disponible y id producto #54 tiene 20 disponibles:\
 ![Captura de pantalla 2024-06-11 132416](https://github.com/Davidr1594/Consultorio_Odontologico/assets/169404551/a1f4694e-416c-428f-89f5-e48523de9f0d)
 
 Se realiza una venta con los 2 productos:\
